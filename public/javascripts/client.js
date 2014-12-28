@@ -1,7 +1,5 @@
 var name = '';
 
-
-
   $(document).ready(function() {
       $('#user-name').keydown(function(e) {
           if (e.keyCode == 13) { //Enter pressed
