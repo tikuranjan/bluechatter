@@ -8,7 +8,7 @@ app.set('port', 3000);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
-// Serve up our static resources
+// Serve up our static resources pawan
 app.get('/', function(req, res) {
   fs.readFile('index.html', function(err, data) {
     res.end(data);
